@@ -1,0 +1,214 @@
+body {
+    background-color: #00D28E;
+}
+
+h1 {
+    font-family: 'Exo', sans-serif;  
+}
+
+p {
+    font-family: 'Quicksand', sans-serif ;
+}
+
+.about-info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about-info p {
+    font-size: 18px;
+}
+
+.card {
+    background-color: white;
+}
+
+.about-card {
+  padding: 30px;
+}
+
+.main-heading {
+    color: white;
+    margin-left: 10px;
+}
+
+.header {
+    background-color: #808684;
+    font-family: 'Exo', sans-serif;
+    border-bottom-style: ridge;
+}
+
+.footer {
+    background-color: #808684;
+    border-top-style: ridge;
+}
+
+.carousel-wrap {
+    margin-bottom: 50px
+}
+
+.carousel-item {
+    align-items: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.nav-btn-main {
+    background-color: #00D28E;
+    color: white;
+    --bs-nav-link-color: black;
+    --bs-nav-link-hover-color: black;
+}
+
+.hero-card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-nav {
+    font-family: 'Exo', sans-serif;
+    color: white;
+}
+
+.img-about {
+    float: left;
+    margin: 15px;
+    height: 280px;
+
+}
+
+.nav-btn {
+    color: white;
+    --bs-nav-link-color: black;
+    --bs-nav-link-hover-color: black;
+}
+
+
+/* font-family: 'Antic', sans-serif; 27px
+font-family: 'Exo', sans-serif; 18px
+font-family: 'Quicksand', sans-serif; 12px */
+
+
+/* Profile Card */
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-family: 'Exo', sans-serif;
+  }
+
+  .user-card {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: #fff;
+     border-radius: 10px;
+     padding: 40px;
+     width: 950px;
+     position: relative;
+     overflow: hidden;
+     box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+ }
+  
+ .user-card:before {
+    content: '';
+    position: absolute;
+    height: 300%;
+    width: 173px;
+    background: #808684;
+    top: -60px;
+    left: -125px;
+    z-index: 0;
+    transform: rotate(17deg);
+  }
+  
+  .user-card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    z-index: 3;
+    border-radius: 5%;
+  }
+  
+  .user-card-img img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .user-card-info {
+    text-align: center;
+  }
+  
+  .user-card-info h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .user-card-info p {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  .user-card-info p span {
+     font-weight: 700;
+     margin-right: 10px;
+ }
+  @media only screen and (min-width: 992px) {
+    .user-card {
+      flex-direction: row;
+      align-items: flex-start;
+    }   
+    .user-card-img {
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  
+    .user-card-info {
+      text-align: left;
+      margin-left: 20px;
+    }
+  }
+  
+  @media (max-width: 768px){
+    .img-about {
+      float: none;
+      width: 100%;
+      height: auto;
+      margin-left: 0px;
+    }
+
+    .center {
+      width: 80%;
+    }
+
+  }
+
+  @media (max-width: 992px){
+    
+    .wrapper{
+       padding-top: 3%;
+    }
+    .user-card:before {
+       width: 300%;
+       height: 200px;
+       transform: rotate(0);
+    }
+    .user-card-info h2 {
+       margin-top: 25px;
+       font-size: 35px;
+    }
+    .user-card-info p span {
+       display: block;
+       margin-bottom: 15px;
+       font-size: 18px;
+    }
+  }

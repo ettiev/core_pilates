@@ -1,0 +1,101 @@
+body {
+    background-color: #00D28E;
+}
+
+h1 {
+    font-family: 'Exo', sans-serif;  
+}
+
+p {
+    font-family: 'Quicksand', sans-serif ;
+}
+
+.card {
+    background-color: white;
+}
+
+.card-img-top {
+    margin-top: 10px;
+    border-radius: 5%;    
+}
+
+.pricing {
+    align-items: center;
+}
+
+.pricing-card {
+    margin: 50px 15px;
+}
+
+.info-card {
+    background-color: white;
+}
+
+.main-heading {
+    color: white;
+    margin-left: 10px;
+}
+
+.header {
+    background-color: #808684;
+    font-family: 'Exo', sans-serif;
+    border-bottom-style: ridge;
+}
+
+.footer {
+    background-color: #808684;
+    border-top-style: ridge;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.nav-btn-main {
+    background-color: #00D28E;
+    color: white;
+    --bs-nav-link-color: black;
+    --bs-nav-link-hover-color: black;
+}
+
+.hero-card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-nav {
+    font-family: 'Exo', sans-serif;
+    color: white;
+}
+
+.nav-btn {
+    color: white;
+    --bs-nav-link-color: black;
+    --bs-nav-link-hover-color: black;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+
+.picture-line {
+    margin-bottom: 40px;
+}
+
+/* font-family: 'Antic', sans-serif; 27px
+font-family: 'Exo', sans-serif; 18px
+font-family: 'Quicksand', sans-serif; 12px */
+
+
+@media (max-width: 992px){
+
+.pricing-card {
+    margin: 20px 15px;
+}
+
+}
